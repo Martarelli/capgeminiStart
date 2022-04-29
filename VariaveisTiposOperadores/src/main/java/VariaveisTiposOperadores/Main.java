@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package VariaveisTiposOperadores;
 
-/**
- *
- * @author Martarelli
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+    
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int idade = 10;
+        float cotacaoDolar = 5.0f;
+        double cotacaoEuro = 6.0d;
+        char genero = 'M';
+        byte ponto = 0;
+        boolean estaCadastrado = false;
+                
+        String nome = "Esse é um texto de uma variável String";
+           
+        
+        
     }
     
 }
