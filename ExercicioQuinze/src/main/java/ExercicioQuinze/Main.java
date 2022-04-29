@@ -1,21 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ExercicioQuinze;
 
-/**
- *
- * @author Martarelli
- */
+import java.util.Scanner;
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int numero;
+        System.out.println("Digite um número: ");
+        Scanner leitorScanner = new Scanner(System.in);
+        
+        numero = leitorScanner.nextInt();
+        
+        if(numero >= 100 && numero <= 200){
+            System.out.println("O número está no intervalo");
+        } else {
+            System.out.println("O número não está no intervalo");
+        }
+        
     }
     
 }
