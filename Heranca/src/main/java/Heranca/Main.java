@@ -1,21 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Heranca;
 
-/**
- *
- * @author Martarelli
- */
+import java.util.Date;
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+       Vendedor v = new Vendedor();
+       v.setNome("Renan");
+       v.setCpf("123456789");
+       v.setSalario("1000.0");
+       v.setDataNascimento(new Date());
+       v.setComissaoPorItem(10.0f);
+       v.setTotalItensVendidos(10);
+       
+       System.out.println("O salário do vendedor é " + v.calcularSalario());
+       
+       Motorista m = new Motorista();
+        
     }
     
 }
