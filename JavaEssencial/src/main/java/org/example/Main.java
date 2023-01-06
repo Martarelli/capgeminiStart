@@ -118,5 +118,24 @@ public class Main {
         } else {
             System.out.println("N1 = N2");
         }
+
+        //COMANDO SWITCH
+        char op = '2';
+        switch (op){
+            case '1': {
+                System.out.println("CASO 1");
+                break;
+            }
+            case '2': {
+                System.out.println("CASO 2");
+                break;
+            }
+            case '3': {
+                System.out.println("CASO 3");
+                break;
+            }
+            default:
+                System.out.println("OPÇÃO INVALIDA: " + op);
+        }
     }
 }
