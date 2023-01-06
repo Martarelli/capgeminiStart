@@ -1,11 +1,30 @@
 package org.example;
 
 public class Pessoa {
-    public String nomePessoa;
-    public int idadePessoa;
+    private String nomePessoa;
+    private int idadePessoa;
 
-    public void mostraDados(String nome, int idade){
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nomePessoa='" + nomePessoa + '\'' +
+                ", idadePessoa=" + idadePessoa +
+                '}';
+    }
+
+    public String getNomePessoa() {
+        return nomePessoa;
+    }
+
+    public void setNomePessoa(String nomePessoa) {
+        this.nomePessoa = nomePessoa;
+    }
+
+    public int getIdadePessoa() {
+        return idadePessoa;
+    }
+
+    public void setIdadePessoa(int idadePessoa) {
+        this.idadePessoa = idadePessoa;
     }
 }

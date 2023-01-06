@@ -182,9 +182,9 @@ public class Main {
 
         //POO
         Pessoa pes = new Pessoa();
-        pes.nomePessoa = "Renan";
-        pes.idadePessoa = 32;
-        pes.mostraDados(pes.nomePessoa,pes.idadePessoa);
+        pes.setNomePessoa("Renan");
+        pes.setIdadePessoa(32);
+        System.out.println(pes.toString());
 
     }
 }
