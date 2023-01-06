@@ -179,5 +179,8 @@ public class Main {
         idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a idade: "));
         JOptionPane.showMessageDialog(null, "Idade digitada: " + idade);
         JOptionPane.showMessageDialog(null, "Idade digitada: " + idade, "ATENCAO", 0);
+
+        Pessoa pes = new Pessoa();
+
     }
 }
