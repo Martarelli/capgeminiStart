@@ -161,5 +161,12 @@ public class Main {
             System.out.println("for número " + i);
         }
 
+        for (int i = 0; i < num1; i++) {
+            System.out.println("for número " + i);
+            if (i == 5){
+                System.out.println("parei na iteracao " + i);
+                break;
+            }
+        }
     }
 }
