@@ -141,10 +141,25 @@ public class Main {
         System.out.println("\n------------------------------------------------------------\n");
 
         //LAÇO REPETIÇÃO
+
+        //WHILE
         num1 = 1;
         while (num1 <= 10){
             System.out.println("Laço número " + num1);
             num1++;
         }
+
+        //DO WHILE
+        num1 = 1;
+        do {
+            System.out.println("Laço número " + num1);
+            num1++;
+        } while (num1 <= 10);
+
+        //FOR
+        for (int i = 0; i < num1; i++) {
+            System.out.println("for número " + i);
+        }
+
     }
 }
