@@ -18,6 +18,8 @@ public class Main {
         System.out.println("O valor de caracter é: " + caracter);
         System.out.println("O valor de certo ou errado é: " + certoOuErrado);
 
+        System.out.println("\n------------------------------------------------------------\n");
+
         int num1, num2, num3;
 
         //SOMA
@@ -44,6 +46,8 @@ public class Main {
         num3 = num1 * num2;
         System.out.println(num3);
 
+        System.out.println("\n------------------------------------------------------------\n");
+
         //INCREMENTANDO DE 1 EM 1
         num1 = 0;
         while (num1 < 10){
@@ -56,6 +60,8 @@ public class Main {
             System.out.println(num1);
             num1--;
         }
+
+        System.out.println("\n------------------------------------------------------------\n");
 
         //OPERADORES RELACIONAIS
         num1 = 10;
@@ -79,6 +85,8 @@ public class Main {
             System.out.println("Numero 2 é maior que número 1");
         }
 
+        System.out.println("\n------------------------------------------------------------\n");
+
         //OPERADORES LÓGICOS
         num1 = 10;
         num2 = 5;
@@ -96,6 +104,19 @@ public class Main {
             System.out.println("Primeira condição satisfeita");
         } else {
             System.out.println("Segunda condição satisfeita");
+        }
+
+        System.out.println("\n------------------------------------------------------------\n");
+
+        //CONDIÇÕES COMPOSTA
+        num1 = 10;
+        num2 = 12;
+        if (num1 > num2){
+            System.out.println("N1 > N2");
+        } else if (num1 < num2) {
+            System.out.println("N1 < N2");
+        } else {
+            System.out.println("N1 = N2");
         }
     }
 }
