@@ -180,7 +180,11 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Idade digitada: " + idade);
         JOptionPane.showMessageDialog(null, "Idade digitada: " + idade, "ATENCAO", 0);
 
+        //POO
         Pessoa pes = new Pessoa();
+        pes.nomePessoa = "Renan";
+        pes.idadePessoa = 32;
+        pes.mostraDados(pes.nomePessoa,pes.idadePessoa);
 
     }
 }
