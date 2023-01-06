@@ -1,5 +1,7 @@
 package org.example;
 
+import javax.swing.JOptionPane;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -168,5 +170,14 @@ public class Main {
                 break;
             }
         }
+
+        System.out.println("\n------------------------------------------------------------\n");
+
+        //ENTRADA DADOS VIA JOptionPane
+        int idade;
+
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a idade: "));
+        JOptionPane.showMessageDialog(null, "Idade digitada: " + idade);
+        JOptionPane.showMessageDialog(null, "Idade digitada: " + idade, "ATENCAO", 0);
     }
 }
