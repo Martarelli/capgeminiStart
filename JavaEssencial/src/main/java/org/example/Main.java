@@ -56,5 +56,27 @@ public class Main {
             System.out.println(num1);
             num1--;
         }
+
+        //OPERADORES RELACIONAIS
+        num1 = 10;
+        num2 = 10;
+
+        //IGUALDADE
+        if (num1 == num2){
+            System.out.println("Numero 1 e número 2 são iguais");
+        }
+
+        //DIFERENTES
+        num2 = 11;
+        if (num1 != num2){
+            System.out.println("Numero 1 e número 2 são diferentes");
+        }
+
+        //MAIOR
+        if (num1 > num2){
+            System.out.println("Numero 1 é maior que número 2");
+        } else {
+            System.out.println("Numero 2 é maior que número 1");
+        }
     }
 }
