@@ -19,10 +19,42 @@ public class Main {
         System.out.println("O valor de certo ou errado é: " + certoOuErrado);
 
         int num1, num2, num3;
+
+        //SOMA
         num1 = 10;
         num2 = 20;
         num3 = num1 + num2;
-
         System.out.println(num3);
+
+        //SUBTRAÇÃO
+        num1 = 10;
+        num2 = 20;
+        num3 = num1 - num2;
+        System.out.println(num3);
+
+        //DIVISÃO
+        num1 = 40;
+        num2 = 20;
+        num3 = num1 / num2;
+        System.out.println(num3);
+
+        //MULTIPLICAÇÃO
+        num1 = 10;
+        num2 = 20;
+        num3 = num1 * num2;
+        System.out.println(num3);
+
+        //INCREMENTANDO DE 1 EM 1
+        num1 = 0;
+        while (num1 < 10){
+            num1++;
+            System.out.println(num1);
+        }
+
+        //DECREMENTANDO DE 1 EM 1
+        while (num1 > 0){
+            System.out.println(num1);
+            num1--;
+        }
     }
 }
