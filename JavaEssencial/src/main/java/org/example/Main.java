@@ -137,5 +137,14 @@ public class Main {
             default:
                 System.out.println("OPÇÃO INVALIDA: " + op);
         }
+
+        System.out.println("\n------------------------------------------------------------\n");
+
+        //LAÇO REPETIÇÃO
+        num1 = 1;
+        while (num1 <= 10){
+            System.out.println("Laço número " + num1);
+            num1++;
+        }
     }
 }
