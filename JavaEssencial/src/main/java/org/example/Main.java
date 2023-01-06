@@ -78,5 +78,24 @@ public class Main {
         } else {
             System.out.println("Numero 2 é maior que número 1");
         }
+
+        //OPERADORES LÓGICOS
+        num1 = 10;
+        num2 = 5;
+        num3 = 20;
+        int num4 = 5;
+
+
+        if ((num1 > num3) && (num2 == num4)){
+            System.out.println("Primeira condição satisfeita");
+        } else {
+            System.out.println("Segunda condição satisfeita");
+        }
+
+        if ((num1 > num3) || (num2 == num4)){
+            System.out.println("Primeira condição satisfeita");
+        } else {
+            System.out.println("Segunda condição satisfeita");
+        }
     }
 }
