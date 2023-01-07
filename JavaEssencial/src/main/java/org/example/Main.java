@@ -192,5 +192,13 @@ public class Main {
         pesFisica.setNomePessoa("OI");
         pesFisica.setSituacao("I");
         System.out.println(pesFisica.toString());
+
+        //POLIMORFISMO
+        Mamifero mam1 = new Elefante();
+        System.out.println("Cota diaria de leite de um elefante: " + mam1.cotaLeite());
+
+        Mamifero mam2 = new Rato();
+        System.out.println("Cota diaria de leite de um rato: " + mam2.cotaLeite());
+
     }
 }
