@@ -183,8 +183,14 @@ public class Main {
         //POO
         Pessoa pes = new Pessoa();
         pes.setNomePessoa("Renan");
-        pes.setIdadePessoa(32);
+        pes.setSituacao("a");
         System.out.println(pes.toString());
 
+        //Herança
+        Fisica pesFisica = new Fisica();
+        pesFisica.setCpf("1111111111");
+        pesFisica.setNomePessoa("OI");
+        pesFisica.setSituacao("I");
+        System.out.println(pesFisica.toString());
     }
 }

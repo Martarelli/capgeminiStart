@@ -1,14 +1,13 @@
 package org.example;
 
 public class Pessoa {
-    private String nomePessoa;
-    private int idadePessoa;
+    private String nomePessoa, situacao;
 
     @Override
     public String toString() {
         return "Pessoa{" +
                 "nomePessoa='" + nomePessoa + '\'' +
-                ", idadePessoa=" + idadePessoa +
+                ", situacao='" + situacao + '\'' +
                 '}';
     }
 
@@ -20,11 +19,12 @@ public class Pessoa {
         this.nomePessoa = nomePessoa;
     }
 
-    public int getIdadePessoa() {
-        return idadePessoa;
+    public String getSituacao() {
+        return situacao;
     }
 
-    public void setIdadePessoa(int idadePessoa) {
-        this.idadePessoa = idadePessoa;
+    public void setSituacao(String situacao) {
+        this.situacao = situacao;
     }
 }
+
