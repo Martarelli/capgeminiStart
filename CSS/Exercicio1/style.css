@@ -1,6 +1,8 @@
 html {
+    height: 100vh;
     color: white;
     background-color: rgba(255 , 255, 255, 1);
     background-image: url('kkkkkkkkkk.jpg');
     background-repeat: no-repeat;
+    background-position: center;
 }
