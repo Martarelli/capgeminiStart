@@ -22,4 +22,5 @@ main p {
 main h2 {
     text-align: center;
     text-decoration: underline;
+    letter-spacing: 2rem;
 }
