@@ -18,3 +18,7 @@ main {
 main p {
     text-indent: 2rem;
 }
+
+main h2 {
+    text-align: center;
+}
