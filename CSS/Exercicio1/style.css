@@ -14,3 +14,7 @@ main {
     font-variant: small-caps;
     font-size: 1.5rem;
 }
+
+main p {
+    text-indent: 2rem;
+}
