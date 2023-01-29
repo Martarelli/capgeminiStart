@@ -38,3 +38,8 @@ a:active {
 a:visited {
     color: beige;
 }
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
