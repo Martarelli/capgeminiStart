@@ -25,3 +25,8 @@ main h2 {
     letter-spacing: 2rem;
     text-transform: uppercase;
 }
+
+a{
+    color: red;
+    cursor: pointer;
+}
