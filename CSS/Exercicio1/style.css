@@ -34,3 +34,7 @@ a{
 a:active {
     color: yellow;
 }
+
+a:visited {
+    color: beige;
+}
