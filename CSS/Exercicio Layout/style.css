@@ -5,21 +5,23 @@
     color: white;
     font-size: 3rem;
     padding: 5px 2px 3px 10px;
-    border: 2px solid black;
+    border: 2px dotted black;
 }
 
 .vermelho {
     background-color: red;
     border-width: 5px;
+    border-style: dashed;
 
-}
-
-.verde{
-    background-color: green;
-    border-width: 5px 0 5px 2px;
 }
 
 .azul {
     background-color: blue;
     border-bottom-width: 0px;
+    border-bottom-style: double;
+}
+.verde{
+    background-color: green;
+    border-width: 5px 0 5px 2px;
+    border-style: solid;
 }
