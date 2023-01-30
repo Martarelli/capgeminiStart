@@ -6,12 +6,14 @@
     font-size: 3rem;
     padding: 5px 2px 3px 10px;
     border: 2px dotted black;
+    border-radius: 3rem;
 }
 
 .vermelho {
     background-color: red;
     border-width: 5px;
     border-style: dashed;
+    border-top-left-radius: 1rem ;
 
 }
 
@@ -19,9 +21,11 @@
     background-color: blue;
     border-bottom-width: 0px;
     border-bottom-style: double;
+    border-radius: 0 0 1rem 3rem;
 }
 .verde{
     background-color: green;
     border-width: 5px 0 5px 2px;
     border-style: solid;
+    border-radius: 1rem 2rem;
 }
