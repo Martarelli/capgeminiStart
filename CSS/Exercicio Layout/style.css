@@ -1,20 +1,25 @@
 .box {
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 5rem;
     height: 5rem;
     color: white;
     font-size: 3rem;
     padding: 5px 2px 3px 10px;
+    border: 2px solid black;
 }
 
 .vermelho {
     background-color: red;
+    border-width: 5px;
+
 }
 
 .verde{
     background-color: green;
+    border-width: 5px 0 5px 2px;
 }
 
 .azul {
     background-color: blue;
+    border-bottom-width: 0px;
 }
