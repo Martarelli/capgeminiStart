@@ -1,5 +1,7 @@
 .box {
     box-sizing: content-box;
+    width: 5rem;
+    height: 5rem;
 }
 
 .vermelho {
