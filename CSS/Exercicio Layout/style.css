@@ -7,6 +7,7 @@
     padding: 5px 2px 3px 10px;
     border: 2px dotted black;
     border-radius: 3rem;
+    margin: 5px;
 }
 
 .vermelho {
@@ -14,6 +15,7 @@
     border-width: 5px;
     border-style: dashed;
     border-top-left-radius: 1rem ;
+    margin: 1rem 0 5rem 1rem;
 
 }
 
@@ -22,10 +24,12 @@
     border-bottom-width: 0px;
     border-bottom-style: double;
     border-radius: 0 0 1rem 3rem;
+    margin-top: 2rem;
 }
 .verde{
     background-color: green;
     border-width: 5px 0 5px 2px;
     border-style: solid;
     border-radius: 1rem 2rem;
+    margin-left: 0;
 }
