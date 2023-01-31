@@ -1,5 +1,7 @@
 @cor: white;
 @cor2: green;
+@width: 0.5;
+
 html {
     color: @cor;
     background-color: rgba(0 , 0, 0, 1);
@@ -11,6 +13,7 @@ html {
 
 article {
     h2{
-        background-color: @cor2;
+        background-color: if(iscolor(@cor2),@cor2, red);
+        width: percentage(@width);
     }
 }
