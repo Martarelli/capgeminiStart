@@ -1,9 +1,10 @@
 @cor: white;
 @cor2: green;
+@cor_sombra: black;
 @width: 0.5;
 
 html {
-    .cores();
+    .cores('','');
     background-color: rgba(0 , 0, 0, 1);
     background-image: url('https://picsum.photos/1600/900');
     background-repeat: no-repeat;
@@ -13,14 +14,22 @@ html {
 }
 
 h1 {
-    .cores();
+    .cores(5rem,'h1');
 }
+
 h2{
-    background-color: @cor2;
+    .cores('','');
     width: percentage(@width);
 }
 
-.cores(){
+.cores(@tamanho, @tag){
     color: @cor;
+    font-size: @tamanho;
+    & when(@tag = 'h1'){
+        text-shadow: 5px 1px 1px @cor_sombra;
+    } 
+    & when(@tag = '') {
+        background-color: red;
+    }
 
 }
