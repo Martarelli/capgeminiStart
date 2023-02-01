@@ -2,34 +2,40 @@
 @cor2: green;
 @cor_sombra: black;
 @width: 0.5;
+@tamanho: 1.2rem;
 
 html {
-    .cores('','');
+    height: 100vh;
+}
+
+body{
+    .cores('');
     background-color: rgba(0 , 0, 0, 1);
     background-image: url('https://picsum.photos/1600/900');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 h1 {
-    .cores(5rem,'h1');
+    .cores('h1');
 }
 
 h2{
-    .cores('','');
+    .cores('');
     width: percentage(@width);
 }
 
-.cores(@tamanho, @tag){
+.cores(@tag){
     color: @cor;
-    font-size: @tamanho;
+    
     & when(@tag = 'h1'){
         text-shadow: 5px 1px 1px @cor_sombra;
+        font-size: @tamanho + 4;
     } 
     & when(@tag = '') {
         background-color: red;
+        font-size: @tamanho * 1.2;
     }
 
 }
