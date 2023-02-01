@@ -2,7 +2,7 @@
 @cor2: green;
 @cor_sombra: black;
 @width: 0.5;
-@tamanho: 1.2rem;
+@tamanho: 1rem;
 
 html {
     height: 100vh;
@@ -31,11 +31,11 @@ h2{
     
     & when(@tag = 'h1'){
         text-shadow: 5px 1px 1px @cor_sombra;
-        font-size: @tamanho + 4;
+        font-size: @tamanho + 2.5;
     } 
     & when(@tag = '') {
         background-color: red;
-        font-size: @tamanho * 1.2;
+        font-size: @tamanho * 1.25;
     }
 
 }
