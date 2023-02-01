@@ -3,17 +3,24 @@
 @width: 0.5;
 
 html {
-    color: @cor;
+    .cores();
     background-color: rgba(0 , 0, 0, 1);
     background-image: url('https://picsum.photos/1600/900');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
-article {
-    h2{
-        background-color: if(iscolor(@cor2),@cor2, red);
-        width: percentage(@width);
-    }
+h1 {
+    .cores();
+}
+h2{
+    background-color: @cor2;
+    width: percentage(@width);
+}
+
+.cores(){
+    color: @cor;
+
 }
