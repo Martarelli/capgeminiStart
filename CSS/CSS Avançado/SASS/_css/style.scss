@@ -28,4 +28,11 @@ h1{
     font-size: $tamanho_fonte * 4;
 }
 
-
+$corDiv: red;
+@for $i from 1 through 3 {  //UTILIZANDO FOR COM SCSS
+    $nome: '.div-' + $i;
+    #{$nome}{
+        font-size: $i * 0.8 * $tamanho_fonte;
+        margin-top: 2rem;
+    }
+}

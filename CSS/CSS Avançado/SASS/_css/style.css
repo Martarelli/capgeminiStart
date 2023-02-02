@@ -18,4 +18,19 @@ body h2 {
 
 h1 {
   font-size: 4rem;
+}
+
+.div-1 {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
+.div-2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.div-3 {
+  font-size: 2.4rem;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
