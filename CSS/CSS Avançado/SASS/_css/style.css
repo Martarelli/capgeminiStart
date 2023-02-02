@@ -1,0 +1,20 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+}
+
+.drop-shadow {
+  text-shadow: 2px 1px 1px #ccc;
+  text-decoration: underline;
+}
+
+h1 {
+  color: lightblue;
+}
+
+p {
+  color: lightblue;
+}/*# sourceMappingURL=style.css.map */
