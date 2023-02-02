@@ -34,5 +34,6 @@ $corDiv: red;
     #{$nome}{
         font-size: $i * 0.8 * $tamanho_fonte;
         margin-top: 2rem;
+        background-color: lighten($color: #000000, $amount: $i * 20%);
     }
 }
