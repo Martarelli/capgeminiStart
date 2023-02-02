@@ -3,6 +3,7 @@ $blue: lightblue;
 $green: green;
 $background: blue;
 $tamanho_fonte: 1rem;
+$tamanho_aspa: '36';
 
 @mixin cores() {
     color: $blue;
@@ -18,6 +19,7 @@ body {
     } @else {
         h2 {
             color: red;
+            font-size: #{$tamanho_aspa+px}; //EXEMPLO PARA RETIRAR ASPAS DA STRING
         }
     }
 }
