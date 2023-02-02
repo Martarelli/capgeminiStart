@@ -3,22 +3,14 @@ html {
 }
 
 body {
+  color: lightblue;
   background-color: black;
+}
+body h2 {
+  color: green;
 }
 
 .drop-shadow {
   text-shadow: 2px 1px 1px #ccc;
   text-decoration: underline;
-}
-
-h1 {
-  color: lightblue;
-}
-
-h2 {
-  color: green;
-}
-
-p {
-  color: lightblue;
 }/*# sourceMappingURL=style.css.map */
