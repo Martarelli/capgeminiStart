@@ -2,15 +2,15 @@ html {
   height: 100vh;
 }
 
+.drop-shadow {
+  text-shadow: 2px 1px 1px #ccc;
+  text-decoration: underline;
+}
+
 body {
   color: lightblue;
   background-color: black;
 }
 body h2 {
   color: green;
-}
-
-.drop-shadow {
-  text-shadow: 2px 1px 1px #ccc;
-  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
