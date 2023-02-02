@@ -11,8 +11,7 @@ $background: black;
 body {
     @include cores();
     h2 {
-        color: $green;
-
+        color: light + $green;
     }
 }
 
