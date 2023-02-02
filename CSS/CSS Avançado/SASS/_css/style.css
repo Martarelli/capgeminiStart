@@ -9,8 +9,12 @@ html {
 
 body {
   color: lightblue;
-  background-color: black;
+  background-color: blue;
 }
 body h2 {
-  color: green;
+  color: red;
+}
+
+h1 {
+  font-size: 4rem;
 }/*# sourceMappingURL=style.css.map */

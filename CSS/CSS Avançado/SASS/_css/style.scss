@@ -1,7 +1,8 @@
 @use 'base.scss';
 $blue: lightblue;
 $green: green;
-$background: black;
+$background: blue;
+$tamanho_fonte: 1rem;
 
 @mixin cores() {
     color: $blue;
@@ -10,9 +11,19 @@ $background: black;
 
 body {
     @include cores();
-    h2 {
-        color: light + $green;
+    @if ($background == black){
+        h2 {
+            color: light + $green;
+        }
+    } @else {
+        h2 {
+            color: red;
+        }
     }
+}
+
+h1{
+    font-size: $tamanho_fonte * 4;
 }
 
 
