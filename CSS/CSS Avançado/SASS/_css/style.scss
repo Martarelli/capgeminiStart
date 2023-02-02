@@ -1,12 +1,18 @@
 $blue: lightblue;
+$green: green;
 $background: black;
+
+@mixin cores() {
+    color: $cor;
+    background-color: $background;
+}
 
 html {
     height: 100vh;
 }
 
 body {
-    background-color: $background;
+    @include cores();
 }
 
 .drop-shadow {
@@ -14,9 +20,7 @@ body {
     text-decoration: underline;
 }
 
-h1 {
-    color: $blue;
+h2 {
+    color: $green;
 }
-p{
-    color: $blue;
-}
+
