@@ -17,4 +17,9 @@ public class Aluno {
 		REPROVADO
 	}
 
+	public double calcularMedia() {
+		
+		return (this.nota1 + this.nota2 + this.nota3)/3;
+		
+	}
 }
