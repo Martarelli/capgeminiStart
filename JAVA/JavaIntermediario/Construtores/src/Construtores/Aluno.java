@@ -13,7 +13,7 @@ public class Aluno {
 		this.nota3 = nota3;
 	}
 	
-	public enum Matricula {
+	public enum MATRICULA {
 		MATRICULADO,
 		PENDENTE,
 		RECUSADO
