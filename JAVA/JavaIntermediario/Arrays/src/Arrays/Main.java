@@ -17,13 +17,22 @@ public class Main {
 //		paises[3] = "Japão";
 		
 		String[] paises = new String[4];
+		int [] numeros = new int[10];
 		
 		for (int i = 0; i < 4; i++) {
 			paises[i] = JOptionPane.showInputDialog("Informe um país: ");
 		} 
 		
+		for (int i = 0; i < 10; i++) {
+			numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Informe um numero:")); 
+		}
+		
 		for (String string : paises) {
 			System.out.println(string);
+		}
+		
+		for (Integer listaNumero : numeros) {
+			System.out.println(listaNumero);
 		}
 	}
 
