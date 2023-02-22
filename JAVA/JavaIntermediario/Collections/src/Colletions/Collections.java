@@ -1,6 +1,7 @@
 package Colletions;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 import javax.swing.JOptionPane;
 
@@ -50,13 +51,35 @@ public class Collections {
 		carros.clear();
 		
 		//adiciona elemento com joptionpane
-		carros.add(JOptionPane.showInputDialog("Insira um carro: ").toUpperCase());
+		//carros.add(JOptionPane.showInputDialog("Insira um carro: ").toUpperCase());
 		
 		//exibindo elementos
 		System.out.println("*******CARROS*******");
 		for (String carro : carros) {
 			System.out.println(carro);
 		}
+		
+		LinkedList<String> comidas = new LinkedList<String>();
+		comidas.add("Pizza");
+		comidas.add("Lasanha");
+		
+		System.out.println(comidas);
+		
+		comidas.addFirst("Lanche");
+		
+		System.out.println(comidas);
+		
+		comidas.addLast("X-Tudo");
+		
+		System.out.println(comidas);
+		
+		comidas.removeFirst();
+		comidas.removeLast();
+		String comida = comidas.get(0);
+		System.out.println(comida);
+		
+		
+		
 	}
 
 }
