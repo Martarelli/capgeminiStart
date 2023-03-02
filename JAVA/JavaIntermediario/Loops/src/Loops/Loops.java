@@ -10,6 +10,11 @@ public class Loops {
 		for (int i = 0; i < vetorNumeros.length; i++) {
 			System.out.println("Nr: "+ vetorNumeros[i]);
 		}
+		
+		System.out.println("Com for each");
+		for (int i : vetorNumeros) {
+			System.out.println("Nr: "+ i);
+		}
 	}
 
 }
