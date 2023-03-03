@@ -1,6 +1,7 @@
 package Dates;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 
@@ -38,6 +39,19 @@ public class Dates {
 		System.out.println("dt2: "+ sdf3.format(dt2));
 		System.out.println("dt3: "+ sdf3.format(dt3));
 		System.out.println("dt4: "+ sdf3.format(dt4));
+		
+		Calendar cal = Calendar.getInstance();
+		
+		System.out.println("Data e Hora atual: " + cal.getTime());
+		System.out.println("Ano: " + cal.get(Calendar.YEAR));
+		System.out.println("Dia do mês: " + cal.get(Calendar.DAY_OF_MONTH));
+		
+		System.out.println("Alterando a data/hora com método set");
+		cal.set(Calendar.YEAR, 1990);
+		cal.set(Calendar.DAY_OF_MONTH, 11);
+		System.out.println("Data e Hora atual: " + cal.getTime());
+		System.out.println("Ano: " + cal.get(Calendar.YEAR));
+		System.out.println("Dia do mês: " + cal.get(Calendar.DAY_OF_MONTH));
 	}
 
 }
