@@ -23,6 +23,7 @@ public class Dao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(url,user,password);
+			System.out.println("Conexão estabelecida com o BD");
 		} catch (SQLException | ClassNotFoundException ex){
 			System.out.println("Erro ao conectar com o BD");
 		}
