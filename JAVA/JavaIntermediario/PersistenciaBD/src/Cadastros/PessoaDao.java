@@ -23,4 +23,13 @@ public class PessoaDao extends Dao{
 		stmt.close();
 		close();
 	}
+	
+	public void excluirPessoa(Pessoa p) throws Exception{
+		open();
+		stmt = con.prepareStatement("delete from pessoa where idPessoa = ?");
+		stmt.setInt(1, p.getIdPessoa());
+		stmt.execute();
+		stmt.close();
+		close();
+	}
 }
