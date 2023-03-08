@@ -5,6 +5,11 @@ public class Pessoa {
 	private String nomePessoa;
 	private String email;
 	
+	
+	public Pessoa() {
+		super();
+	}
+	
 	public Pessoa(String nomePessoa, String email) {
 		super();
 		this.nomePessoa = nomePessoa;

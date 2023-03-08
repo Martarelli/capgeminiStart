@@ -57,7 +57,7 @@ public class PessoaDao extends Dao{
 		open();
 		stmt = con.prepareStatement("select * from pessoa");
 		rs = stmt.executeQuery();
-		List<Pessoa> listaPessoas = new ArrayList<Pessoa>()
+		List<Pessoa> listaPessoas = new ArrayList<Pessoa>();
 		while(rs.next()) {
 			Pessoa p = new Pessoa();
 			p.setIdPessoa(rs.getInt("idPessoa"));
