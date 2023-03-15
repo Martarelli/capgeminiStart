@@ -39,6 +39,7 @@ public class PessoaDao extends Dao{
 	public Pessoa ConsultarPessoa(int cod) throws Exception{
 		open();
 		stmt = con.prepareStatement("select * from pessoa where idPessoa = ?");
+		stmt.setInt(1, cod);
 		rs = stmt.executeQuery();
 		Pessoa p = null;
 		if(rs.next()) {
@@ -46,6 +47,8 @@ public class PessoaDao extends Dao{
 			p.setIdPessoa(rs.getInt("idPessoa"));
 			p.setNomePessoa(rs.getString("nomePessoa"));
 			p.setEmail(rs.getString("email"));
+		} else {
+			System.out.println("Registro não encontrado");
 		}
 		close();
 		return p;
