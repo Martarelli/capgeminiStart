@@ -18,10 +18,10 @@ public class PessoaDao extends Dao{
 	
 	public void AlterarPessoa(Pessoa p) throws Exception{
 		open();
-		stmt = con.prepareStatement("update pessoa nome=?,email=? where idPessoa= ?");
-		stmt.setInt(1, p.getIdPessoa());
-		stmt.setString(2, p.getNomePessoa());
-		stmt.setString(3, p.getEmail());
+		stmt = con.prepareStatement("update pessoa set nomePessoa = ?, email = ? where idPessoa = ?");	
+		stmt.setString(1, p.getNomePessoa());
+		stmt.setString(2, p.getEmail());
+		stmt.setInt(3, p.getIdPessoa());
 		stmt.execute();
 		stmt.close();
 		close();
